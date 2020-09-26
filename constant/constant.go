@@ -11,4 +11,12 @@ func main() {
 	const lastName string = "Syaifulloh"
 
 	fmt.Println(firstName + " " + lastName)
+
+	const (
+		birthDate string = "1997-04-21"
+		country   string = "Indonesia"
+	)
+
+	fmt.Println(birthDate)
+	fmt.Println(country)
 }
